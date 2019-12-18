@@ -3,7 +3,7 @@ syntax = "proto3";
 package hello;
 
 service HelloService {
-    rpc DoGetHello(GetHelloRequest) returns (GetHelloResponse);
+    rpc GetHello(GetHelloRequest) returns (GetHelloResponse){}
 }
 
 message GetHelloRequest{
